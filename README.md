@@ -50,6 +50,8 @@ openssl rand -base64 32
 
 任意の Public hostname を指定し、Service 部分には`HTTP`と`app:3000`を指定します。（docker のネットワーク内ではコンテナ名で指定するため）
 
+`NEXTAUTH_URL`に`https://`から始まるサイトのURLを記載します
+
 ### docker コンテナの起動
 
 ```bash
